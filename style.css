@@ -90,3 +90,20 @@ ol {
     margin-top: 24px;
     margin-bottom: 12px;
 }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 10px;
+}
