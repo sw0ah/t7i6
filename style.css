@@ -17,6 +17,18 @@
 }
 
 .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+}
+.center {
     padding-left: calc(50% - 500px);
     padding-right: calc(50% - 500px);
 }
@@ -96,20 +108,4 @@ ol {
     margin-bottom: 12px;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-}
-
-ol {
-    padding: 0;
-    list-style-position: inside;
-}
-
-li {
-    margin-bottom: 10px;
-}
 
