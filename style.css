@@ -81,12 +81,12 @@ ol {
 
 .profile {
     display: flex;
-    flex-direction: row; /* Изменено с column на row */
+    flex-direction: row;
     gap: 32px;
     align-items: flex-start;
     margin-top: 24px;
-    flex-wrap: wrap; /* Добавлено для адаптивности */
-    justify-content: center; /* Добавлено для выравнивания */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile img {
@@ -118,6 +118,7 @@ ol {
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.6);
 }
+
 
 
 
